@@ -1,0 +1,40 @@
+body {
+  /* font-family: Geneva, Verdana, Times, Cambria, Helvetica, Arial, sans-serif; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#download {
+  width: 20;
+  height: 20;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.highlight div,
+div.highlight pre,
+div.highlight span {
+  background-color: #222333 !important;
+}
+
+span.highlight {
+  background-color: lightgray;
+}
+
+body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
